@@ -455,10 +455,10 @@ public class DashboardFrame extends JFrame {
         JPanel statsPanel = new JPanel(new GridLayout(1, 4, 20, 0));
         statsPanel.setBackground(bgColor);
         
-        statsPanel.add(createStatCard("Tổng Học Viên", "1,234", "👥", new Color(52, 152, 219)));
-        statsPanel.add(createStatCard("Khóa Học", "45", "📚", new Color(46, 204, 113)));
-        statsPanel.add(createStatCard("Doanh Thu Tháng", "125M", "💰", new Color(241, 196, 15)));
-        statsPanel.add(createStatCard("Học Viên Mới", "89", "📈", new Color(155, 89, 182)));
+        statsPanel.add(createStatCard("Tổng Học Viên", "Đang cập nhật", "👥", new Color(52, 152, 219)));
+        statsPanel.add(createStatCard("Khóa Học", "Đang cập nhật", "📚", new Color(46, 204, 113)));
+        statsPanel.add(createStatCard("Doanh Thu Tháng", "Đang cập nhật", "💰", new Color(241, 196, 15)));
+        statsPanel.add(createStatCard("Học Viên Mới", "Đang cập nhật", "📈", new Color(155, 89, 182)));
         
         dashPanel.add(statsPanel, BorderLayout.CENTER);
         
